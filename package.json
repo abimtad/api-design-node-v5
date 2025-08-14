@@ -12,7 +12,7 @@
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio",
     "db:seed": "node src/db/seed.ts",
-    "test": "vitest run",
+    "test": "cross-env APP_STAGE=test vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage"
   },
@@ -37,6 +37,7 @@
     "helmet": "^7.1.0",
     "jose": "^6.0.12",
     "morgan": "^1.10.1",
+    "node-fetch": "^3.3.2",
     "pg": "^8.16.3",
     "ts-node": "^10.9.2",
     "zod": "^4.0.17"
