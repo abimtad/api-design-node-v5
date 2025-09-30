@@ -4,8 +4,6 @@ jspm_packages/
 bower_components/
 
 # Environment variables
-.env
-.env.*
 !.env.example
 !.env.template
 
@@ -50,7 +48,6 @@ out/
 .fusebox/
 .dynamodb/
 .tern-port/
-.vscode-test/
 .yarn/cache/
 .yarn/unplugged/
 .yarn/build-state.yml
@@ -58,7 +55,6 @@ out/
 .pnp.*
 
 # IDE and editor files
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -125,7 +121,6 @@ shrinkwrap.yaml
 .env.development.local
 .env.test.local
 .env.production.local
-.env.local
 
 # Mac OS
 .DS_Store
@@ -167,3 +162,8 @@ $RECYCLE.BIN/
 .directory
 .Trash-*
 .nfs*
+config.bat
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
